@@ -22,14 +22,14 @@ class linkedlist:
 
     def print(self):
         temp = self.head
-        sum=0
-        count=0
+        sum = 0
+        count = 0
         while temp:
             if temp.data > 0:
                 print(temp.data)
+                sum += temp.data
+                count += 1
             temp = temp.next
-            count+=1 
-            sum = sum + temp.data
         print(f"Sum: {sum}, Count: {count}")
 
 
