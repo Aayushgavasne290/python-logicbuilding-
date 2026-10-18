@@ -1,0 +1,1 @@
+print("print this as ot 18 :")
