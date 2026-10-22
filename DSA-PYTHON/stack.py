@@ -30,8 +30,14 @@ class stack:
             while temp:
                 print(temp.data)
                 temp = temp.next 
+    def reverse(self):
+        temp=self.top
+        while temp:
+            st1.push(node(temp.data))
+            temp=temp.next            
 
 sta = stack()
+st1 = stack()
 sta.push(node(10))
 sta.push(node(20))
 sta.push(node(30))
