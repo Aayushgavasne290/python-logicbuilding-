@@ -3,9 +3,16 @@
 #     for i in range(n):
 #         yield i * i 
 
-def fibonacci(n):
-    """Generator function that yields the Fibonacci sequence up to n terms."""
-    a, b = 0, 1
-    for _ in range(n):
-        yield a
-        a, b = b, a + b
+# def fibonacci(n):
+#     """Generator function that yields the Fibonacci sequence up to n terms."""
+#     a, b = 0, 1
+#     for _ in range(n):
+#         yield a
+#         a, b = b, a + b
+        
+        def sumof_squares(n):
+            
+            total = 0
+            for i in range(n):
+                total += i * i
+                yield total
