@@ -23,3 +23,4 @@
             for i in range(n):
                 for j in range(n):
                     yield i * i + j * j
+        print(list(sumoftwo(3)))  # Output: [0, 1, 4, 1, 2, 5, 4, 5, 8]            
