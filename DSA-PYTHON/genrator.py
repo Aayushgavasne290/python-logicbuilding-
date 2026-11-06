@@ -10,9 +10,16 @@
 #         yield a
 #         a, b = b, a + b
         
-        def sumof_squares(n):
+        # def sumof_squares(n):
             
-            total = 0
+        #     total = 0
+        #     for i in range(n):
+        #         total += i * i
+        #         yield total
+        
+        
+        def sumoftwo(n):
+            """Generator function that yields the sum of squares of two numbers from 0 to n-1."""
             for i in range(n):
-                total += i * i
-                yield total
+                for j in range(n):
+                    yield i * i + j * j
