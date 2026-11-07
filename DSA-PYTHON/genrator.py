@@ -18,9 +18,9 @@
         #         yield total
         
         
-        def sumoftwo(n):
-            """Generator function that yields the sum of squares of two numbers from 0 to n-1."""
-            for i in range(n):
-                for j in range(n):
-                    yield i * i + j * j
-        print(list(sumoftwo(3)))  # Output: [0, 1, 4, 1, 2, 5, 4, 5, 8]            
+        # def sumoftwo(n):
+        #     """Generator function that yields the sum of squares of two numbers from 0 to n-1."""
+        #     for i in range(n):
+        #         for j in range(n):
+        #             yield i * i + j * j
+        # print(list(sumoftwo(3)))  # Output: [0, 1, 4, 1, 2, 5, 4, 5, 8]            
