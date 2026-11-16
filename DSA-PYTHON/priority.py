@@ -33,4 +33,8 @@ class priorityQueue:
         while temp:
             print(temp.data,end=" ")
             temp = temp.next
-                    
+pq = priorityQueue()
+pq.enqueue(node(10,2))
+pq.enqueue(node(20,1))
+pq.enqueue(node(30,3))
+pq.display()
